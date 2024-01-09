@@ -1,0 +1,39 @@
+Filename: c:\Users\jchpa\AppData\Local\Programs\Python\Python311\public\MemoryProfiler\main.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    36     21.9 MiB     21.9 MiB           1   @profile(stream=log_file)
+    37                                         
+    38                                         def myfunction(list_size):
+    39     29.5 MiB      7.6 MiB           1       mylist = ['hello']*list_size
+    40     37.2 MiB      7.6 MiB           1       mylist2 = ['world']*list_size
+    41     29.5 MiB     -7.6 MiB           1       del mylist2
+    42     29.5 MiB      0.0 MiB           1       return mylist
+
+
+Filename: c:\Users\jchpa\AppData\Local\Programs\Python\Python311\public\MemoryProfiler\main.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    36     21.9 MiB     21.9 MiB           1   @profile(stream=log_file)
+    37                                         
+    38                                         def myfunction(list_size):
+    39     98.2 MiB     76.3 MiB           1       mylist = ['hello']*list_size
+    40    174.5 MiB     76.3 MiB           1       mylist2 = ['world']*list_size
+    41     98.2 MiB    -76.3 MiB           1       del mylist2
+    42     98.2 MiB      0.0 MiB           1       return mylist
+
+
+Filename: c:\Users\jchpa\AppData\Local\Programs\Python\Python311\public\MemoryProfiler\main.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    36     21.9 MiB     21.9 MiB           1   @profile(stream=log_file)
+    37                                         
+    38                                         def myfunction(list_size):
+    39    784.8 MiB    762.9 MiB           1       mylist = ['hello']*list_size
+    40   1547.8 MiB    762.9 MiB           1       mylist2 = ['world']*list_size
+    41    784.9 MiB   -762.9 MiB           1       del mylist2
+    42    784.9 MiB      0.0 MiB           1       return mylist
+
+

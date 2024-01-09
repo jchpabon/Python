@@ -1,0 +1,13 @@
+Filename: c:\Users\jchpa\AppData\Local\Programs\Python\Python311\public\MemoryProfiler\main.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    23     22.0 MiB     22.0 MiB           1   @profile(stream=log_file)
+    24                                         
+    25                                         def myfunction(list_size):
+    26     29.6 MiB      7.6 MiB           1       mylist = ['hello']*list_size
+    27     37.2 MiB      7.6 MiB           1       mylist2 = ['world']*list_size
+    28     29.6 MiB     -7.6 MiB           1       del mylist2
+    29     29.6 MiB      0.0 MiB           1       return mylist
+
+
